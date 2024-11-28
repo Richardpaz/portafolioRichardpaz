@@ -1,11 +1,11 @@
 export const iconos = [
     {
         nombre: "Html",
-        img: "../src/assets/html.png"
+        img: "./src/assets/html.png"
     },
     {
         nombre: "Css",
-        img: "../src/assets/Css.png"
+        img: "./src/assets/Css.png"
     },
 
     {
