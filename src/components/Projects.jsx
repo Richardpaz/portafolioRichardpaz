@@ -19,8 +19,10 @@ export function Projects() {
             información de películas, ver detalles, buscar por título, explorar
             por categorías y ver trailers. La aplicación se conecta a una API
             externa (como TMDB) para obtener los datos de forma dinámica.
-          <a href="https://pelis-wheat.vercel.app/">Pelis</a>
-          <a href="https://github.com/Richardpaz/pelis.git">gitHub</a>
+            <div style={{display:"flex",flexDirection:"row"}}>
+              <a href="https://pelis-wheat.vercel.app/">Pelis</a>
+              <a href="https://github.com/Richardpaz/pelis.git">gitHub</a>
+            </div>
           </p>
           <img src={imagen} alt="" />
         </div>
@@ -32,6 +34,10 @@ export function Projects() {
             📸 Este proyecto utiliza la API de Pexels para mostrar imágenes. La
             integración se realiza mediante peticiones a la API REST, usando
             herramientas como Axios y React, permitiendo búsquedas dinámicas.
+          <div style={{display:"flex",flexDirection:"row"}}>
+              <a href="https://pexels-gamma.vercel.app/" target="_blank">Pexels</a>
+              <a href="https://github.com/Richardpaz/pexels.git" target="_blank">gitHub</a>
+            </div>
           </p>
           <img src={pexels} alt="" />
         </div>
@@ -44,6 +50,11 @@ export function Projects() {
             es una aplicación que permite Crear, Leer, Actualizar y Eliminar
             tareas, utilizando Redux para manejar el estado global de la
             aplicación.
+            <div style={{display:"flex",flexDirection:"row"}}>
+              <a href="https://todo-app-vercerl.vercel.app/">todoApp</a>
+              <a href=" https://github.com/Richardpaz/todoApp.git">gitHub</a>
+            </div>
+         
           </p>
           <img src={todo} alt="" />
         </div>
