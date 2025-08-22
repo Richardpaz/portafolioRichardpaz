@@ -1,5 +1,6 @@
 import imagen from "../assets/Pelis/imagen1.jpg";
 import pexels from "../assets/pexels/img1.png";
+import { FaGithub } from "react-icons/fa";
 import todo from "../assets/todo/todoApp.png";
 import "../styles/Projects.css";
 export function Projects() {
@@ -20,8 +21,8 @@ export function Projects() {
             por categorías y ver trailers. La aplicación se conecta a una API
             externa (como TMDB) para obtener los datos de forma dinámica.
             <div style={{display:"flex",flexDirection:"row",gap:"2px"}}>
-              <a href="https://pelis-wheat.vercel.app/">Pelis</a>
-              <a href="https://github.com/Richardpaz/pelis.git">gitHub</a>
+              <a href="https://pelis-wheat.vercel.app/" target="_blank">Pelis</a>
+              <a href="https://github.com/Richardpaz/pelis.git" target="_blank"> <FaGithub /></a>
             </div>
           </p>
           <img src={imagen} alt="" />
@@ -36,7 +37,7 @@ export function Projects() {
             herramientas como Axios y React, permitiendo búsquedas dinámicas.
           <div style={{display:"flex",flexDirection:"row",gap:"2px"}}>
               <a href="https://pexels-gamma.vercel.app/" target="_blank">Pexels</a>
-              <a href="https://github.com/Richardpaz/pexels.git" target="_blank">gitHub</a>
+              <a href="https://github.com/Richardpaz/pexels.git" target="_blank"> <FaGithub /></a>
             </div>
           </p>
           <img src={pexels} alt="" />
@@ -51,8 +52,8 @@ export function Projects() {
             tareas, utilizando Redux para manejar el estado global de la
             aplicación.
             <div style={{display:"flex",flexDirection:"row",gap:"2px"}}>
-              <a href="https://todo-app-vercerl.vercel.app/">todoApp</a>
-              <a href=" https://github.com/Richardpaz/todoApp.git">gitHub</a>
+              <a href="https://todo-app-vercerl.vercel.app/" target="_blank">todoApp</a>
+              <a href=" https://github.com/Richardpaz/todoApp.git" target="_blank"> <FaGithub /></a>
             </div>
          
           </p>
