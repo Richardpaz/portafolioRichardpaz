@@ -1,0 +1,11 @@
+.contenedor-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+}
+.contenedor-skills ul{
+    list-style: none;
+}

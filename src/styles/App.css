@@ -1,0 +1,11 @@
+.Contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 80vw;
+  margin: 10px auto;
+  color: white;
+  padding: 10px 100px;
+  border-radius: 20px;
+}
