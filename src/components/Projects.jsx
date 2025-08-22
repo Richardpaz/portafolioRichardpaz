@@ -20,6 +20,7 @@ export function Projects() {
             por categorías y ver trailers. La aplicación se conecta a una API
             externa (como TMDB) para obtener los datos de forma dinámica.
           <a href="https://pelis-wheat.vercel.app/">Pelis</a>
+          <a href="https://github.com/Richardpaz/pelis.git">gitHub</a>
           </p>
           <img src={imagen} alt="" />
         </div>
